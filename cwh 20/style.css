@@ -1,0 +1,8 @@
+p:first-of-type{
+    background-color: yellow;
+    color: red;
+}
+p:not(:first-of-type){
+    background-color: blue;
+    color: white;
+}

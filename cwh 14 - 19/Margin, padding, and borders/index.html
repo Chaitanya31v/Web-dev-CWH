@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BoxModel</title>
+    <style>
+        *{margin: 0;
+        padding: 0;
+    }
+        .box {
+            background-color: aqua;
+        }
+        .box1{
+            color: yellow;
+            padding: 10px;
+            margin: 20px;
+            border: 2px solid blue;
+            height: 200px;
+            box-sizing: border-box;
+            /* the above line means the given height = 200px
+             means it includes content, border and padding*/
+        }
+        .box2{
+        color: red;
+        padding: 10px;
+            margin: 20px;
+            border: 2px solid black;
+            height: 200px;
+            box-sizing: border-box;
+        }
+
+        /* the margin in between the boxes
+         should be double the size 
+         But they are not, they are normal only
+         This is called as margin collapse*/
+         /* MARGIN COLAPSE :- if margins are collapsing
+         Then the bigger one overtakes it */
+    </style>
+</head>
+
+<body>
+    <!-- CSS Box Model -->
+    <div class="box box1"> i am a box </div>
+    <div class="box box2"> i am another box</div </body>
+
+</html>

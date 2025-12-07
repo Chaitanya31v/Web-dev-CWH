@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+#bg {
+    width: 100%;
+    height: auto;
+    display: block;
+    /*scale: 120%;*/
+}
+
+.onbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 80px;
+    width: 140px;
+}
+
+#lang {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#signin {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 35%;
+    left: 29%;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+#mail {
+    padding: 12px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-top: 20px;
+}
+
+#getstarted {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: red;
+
+}
+
+.other-content {
+    padding: 50px 20px;
+}
